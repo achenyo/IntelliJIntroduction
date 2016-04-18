@@ -5,8 +5,10 @@ package edu.ucsd.cs110.temperature;
  */
 public abstract class Temperature {
 
+    public float value;
+
     public Temperature(float v)	{
-        value = v;
+         value = v;
     }
 
     public final float getValue()	{
